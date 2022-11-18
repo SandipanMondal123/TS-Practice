@@ -1,6 +1,8 @@
 //educative.io/answers/how-to-execute-the-typescript-file-using-the-command-line -> how to run typescript in different ways
 
 
+import {another} from './structures';
+
 class Person {
     //A instace variable, if it is not declared, is automatically public 
     name: string
@@ -44,5 +46,14 @@ class Person {
  // warning Property 'age' does not exist on type 'Motor'
 let newName: string = person1.greeting('John Doe');
 
+let li = [1,2,3,4,5,6,7]
+
+const newLI = li.filter(num => {
+  return num > 4
+})
+console.log(newLI)
+
 console.log(newName, person1.age)
 console.log(motor1.allInfo())
+let change: another = new another()
+
