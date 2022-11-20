@@ -4,13 +4,11 @@
 import {another} from './structures';
 
 class Person {
-    //A instace variable, if it is not declared, is automatically public 
     name: string
     age: number
     constructor(){
       this.name = "Sandy"
       this.age = 20
-      console.log("went here")
     }
     static greeting(name:string): string {
       name = name;

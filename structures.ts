@@ -7,7 +7,7 @@ let hash = {
   for(const [key, value ] of Object.entries(hash)){
     console.log(key, value);
   }
-
+ 
 console.log(Object.entries(hash))
 
  export class another
@@ -21,5 +21,4 @@ console.log(Object.entries(hash))
     }
 }
 
-hash = () => console.log('ME')
-hash()
+
